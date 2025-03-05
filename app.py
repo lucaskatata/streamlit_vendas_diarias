@@ -20,8 +20,8 @@ if uploaded_file is not None:
             st.error("Nenhum arquivo Excel encontrado no ZIP.")
         else:
             st.write("Arquivos Excel encontrados:")
-            # for file in excel_files:
-            #     st.write(file)
+            for file in excel_files:
+                st.write(file)
 
             lista_df = []
 
