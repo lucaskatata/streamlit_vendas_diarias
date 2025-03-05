@@ -3,7 +3,8 @@ import zipfile
 import io
 import pandas as pd
 
-st.title("Upload e Processamento de Arquivos ZIP")
+st.title("Relatório de Vendas Diárias 💵")
+st.set_page_config(layout='wide', page_icon='💵'm page_title='Relatório Eddi')
 
 # Upload do arquivo ZIP
 uploaded_file = st.file_uploader("Faça o upload de um arquivo .zip", type=["zip"])
